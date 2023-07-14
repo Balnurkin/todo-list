@@ -1,0 +1,9 @@
+.tasks__grid{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-gap: 16px;
+    padding: 0 16px;
+
+    height: 100vh;
+    color: black;
+}

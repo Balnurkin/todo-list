@@ -1,0 +1,60 @@
+.task__box{
+    position: relative;
+    overflow-wrap: break-word;
+
+    border-radius: 8px;
+    background-color: #FFEADD;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+
+    width: 85%;
+    min-height: 48px;
+    
+    text-align: left;
+    font-size: 10px;
+
+    margin: 6px 0;
+    padding: 10px;
+    padding-right: 16px;
+}
+.input__add__button{
+    background: var(--positive-color);
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+
+    position: absolute;
+    right: 5px;
+    top: 30%;
+}
+
+.input__add__button svg {
+    width: 100%;
+    height: 100%;
+}
+
+.input__delete__button{
+    background: var(--positive-color);
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+
+    position: absolute;
+    right: 5px;
+    top: 60%;
+}
+
+.input__delete__button svg{
+    width: 100%;
+    height: 100%;
+}
+
+.input__checkbox{
+    background: var(--positive-color);
+    width: 14px;
+    height: 14px;
+    border-radius: 2px;
+
+    position: absolute;
+    right: 5px;
+    top: 30%;
+}
